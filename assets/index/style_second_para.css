@@ -1,0 +1,237 @@
+:root
+{
+    --background: #19191c;
+    --black: #000000;
+    --white: #FFFFFF;
+    --red: #821722;
+    --blue: #004A99;
+}
+
+body
+{
+    padding: 0;
+    margin: 1rem;
+    font-family: sans-serif;
+    background-color: var(--background);
+    color: var(--white); 
+}
+
+@media screen and (min-width: 300px) 
+{
+    #Beschreibung-style1
+    {
+        padding-bottom: 1.5rem;
+        padding-top: 0.5rem;
+        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        margin-left: 0rem;
+        margin-right: 0rem;
+        border-radius: 10px;
+    }
+    
+    #Beschreibung-master1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 0.5rem;
+    }
+
+    .mitte_text1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        max-width: 280px;
+        margin-left: 0.5rem;
+    }
+
+    #Gruppenfoto
+    {
+        width: 200px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 600px) 
+{
+    #Beschreibung-style1
+    {
+        padding-bottom: 1.5rem;
+        padding-top: 0.5rem;
+        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        margin-left: 5.7rem;
+        margin-right: 5.6rem;
+        border-radius: 10px;
+    }
+    
+    #Beschreibung-master1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 0.5rem;
+    }
+
+    .mitte_text1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        max-width: 400px;
+    }
+
+    #Gruppenfoto
+    {
+        width: 250px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 800px) 
+{
+    #Beschreibung-style1
+    {
+        padding-bottom: 1.5rem;
+        padding-top: 0.5rem;
+        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        margin-left: 6.85rem;
+        margin-right: 6.9rem;
+        border-radius: 10px;
+    }
+    
+    #Beschreibung-master1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 0.5rem;  
+    }
+
+    .mitte_text1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        max-width: 500px;
+    }
+
+    #Gruppenfoto
+    {
+        width: 300px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 1079px) 
+{
+    #Beschreibung-style1
+    {
+        padding-bottom: 1.5rem;
+        padding-top: 0.5rem;
+        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        margin-left: 9.2rem;
+        margin-right: 9.21rem;
+        border-radius: 10px;   
+    }
+    
+    #Beschreibung-master1
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 0.5rem;
+    }
+
+    .mitte_text1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        max-width: 600px;
+        
+    }
+
+    #Gruppenfoto
+    {
+        width: 350px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 1300px) 
+{
+    #Beschreibung-style1
+    {
+        padding-bottom: 3rem;
+        padding-top: 0.5rem;
+        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        margin-left: 28.2rem;
+        margin-right: 28.2rem;
+        border-radius: 10px;
+    }
+    
+    #Beschreibung-master1
+    {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+    }
+
+    .mitte_text1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        max-width: 400px;
+        background-color: var(--background);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    #Gruppenfoto
+    {
+        width: 400px;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 465px) 
+{
+    #mitteButton
+    {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 464px) 
+{
+    #mitteButton
+    {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+}

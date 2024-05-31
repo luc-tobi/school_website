@@ -1,0 +1,131 @@
+:root
+{
+    --background: #19191c;
+    --black: #000000;
+    --white: #FFFFFF;
+    --red: #821722;
+    --blue: #004A99;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: var(--background);
+    color: var(--white); 
+}
+
+.divider
+{
+    border-style: solid;
+    border-color: var(--white);
+    padding: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+#Paragraph2
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 300px) 
+{
+    #List
+    {
+        margin-left: -2.1rem;
+        margin-right: 0.5rem;
+    }
+
+    #Allgemein
+    {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    #headlineDes
+    {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    #ProvMap
+    {
+        margin-left: 0.5rem;
+        width: 300px;
+    }
+
+    #Geschichte
+    {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 800px) 
+{
+    #ProvMap
+    {
+        margin-left: 8rem;
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 1079px) 
+{
+    #ProvMap
+    {
+        margin-left: 25rem;
+        width: 325px;
+    }
+}
+
+@media screen and (min-width: 1300px) 
+{  
+    #List
+    {
+        margin-left: 7.5rem;
+    }
+
+    #ProvMap
+    {
+        margin-left: 47rem;
+        width: 400px;
+    }
+
+    .ListElement
+    {
+        margin-left: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    #Allgemein
+    {
+        max-width: 900px;
+        margin-left: 10rem;
+    }
+
+    #headlineDes
+    {
+        margin-left: 10rem;
+    }
+
+    #Geschichte 
+    {
+        margin-top: 2rem;
+        margin-left: 10rem;
+        max-width: 1515px;
+    }
+}
+
+.sources
+{
+    color: var(--white);
+}

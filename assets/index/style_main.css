@@ -1,0 +1,98 @@
+:root
+{
+    --background: #19191c;
+    --black: #000000;
+    --white: #FFFFFF;
+    --red: #821722;
+    --blue: #004A99;
+}
+
+body
+{
+    padding: 0;
+    margin: 1rem;
+    font-family: sans-serif;
+    background-color: var(--background);
+    color: var(--white); 
+}
+
+@media screen and (min-width: 300px) 
+{
+    #Logo {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        width: 100%;
+        height: 16.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 400px) 
+{
+    #Logo {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        width: 100%;
+        height: 18.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 600px) 
+{
+    #Logo {
+        margin-left: 5.7rem;
+        margin-right: 5.7rem;
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 800px) 
+{
+    #Logo {
+        margin-left: 6.8rem;
+        margin-right: 6.8rem;
+        width: 100%;
+        height: 425px;
+    }
+}
+
+@media screen and (min-width: 1079px) 
+{
+    #Logo {
+        margin-left: 9.1rem;
+        margin-right: 9.1rem;
+        width: 100%;
+        height: 580px;
+    }
+}
+
+@media screen and (min-width: 1300px) 
+{
+    #Logo 
+    {
+        margin-left: 28.1rem;
+        margin-right: 28.1rem;
+        width:100%;
+        height: 740px;
+    }  
+}
+
+.button
+{
+    background-color: var(--white);
+    padding: 15px;
+    margin: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--black);
+    border-radius: 10px;
+    color: var(--red);
+}
+
+.button:hover
+{
+    background-color: var(--background);
+    cursor: pointer;
+}
