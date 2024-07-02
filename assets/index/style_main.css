@@ -1,10 +1,11 @@
 :root
 {
-    --background: #19191c;
+    --background: #EDE9E4;
     --black: #000000;
     --white: #FFFFFF;
     --red: #821722;
     --blue: #004A99;
+    --skyblue: #B5C3CB;
 }
 
 body
@@ -86,9 +87,9 @@ body
     margin: 10px;
     border-width: 2px;
     border-style: solid;
-    border-color: var(--black);
+    border-color: var(--skyblue);
     border-radius: 10px;
-    color: var(--red);
+    color: var(--black);
 }
 
 .button:hover

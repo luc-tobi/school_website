@@ -1,10 +1,11 @@
 :root
 {
-    --background: #19191c;
+    --background: #EDE9E4;
     --black: #000000;
     --white: #FFFFFF;
     --red: #821722;
     --blue: #004A99;
+    --skyblue: #B5C3CB;
 }
 
 body
@@ -22,7 +23,7 @@ body
     {
         padding-bottom: 1.5rem;
         padding-top: 0.5rem;
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left: 0rem;
         margin-right: 0rem;
         border-radius: 10px;
@@ -61,7 +62,7 @@ body
     {
         padding-bottom: 1.5rem;
         padding-top: 0.5rem;
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left: 5.7rem;
         margin-right: 5.6rem;
         border-radius: 10px;
@@ -99,7 +100,7 @@ body
     {
         padding-bottom: 1.5rem;
         padding-top: 0.5rem;
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left: 6.85rem;
         margin-right: 6.9rem;
         border-radius: 10px;
@@ -137,7 +138,7 @@ body
     {
         padding-bottom: 1.5rem;
         padding-top: 0.5rem;
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left: 9.2rem;
         margin-right: 9.21rem;
         border-radius: 10px;   
@@ -176,7 +177,7 @@ body
     {
         padding-bottom: 3rem;
         padding-top: 0.5rem;
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left: 28.2rem;
         margin-right: 28.2rem;
         border-radius: 10px;

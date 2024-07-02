@@ -1,10 +1,11 @@
 :root
 {
-    --background: #19191c;
+    --background: #EDE9E4;
     --black: #000000;
     --white: #FFFFFF;
     --red: #821722;
     --blue: #004A99;
+    --skyblue: #B5C3CB;
 }
 
 body
@@ -21,7 +22,7 @@ body
     #Unterstützung-style
     {
         background-color: var(--black);
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left: 0;
         margin-right: 0;
         margin-top: 1rem;
@@ -45,7 +46,7 @@ body
     #Unterstützung-style
     {
         background-color: var(--black);
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left:5.7rem;
         margin-right:5.6rem;
         margin-top: 1rem;
@@ -69,7 +70,7 @@ body
     #Unterstützung-style
     {
         background-color: var(--black);
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left:6.85rem;
         margin-right:6.9rem;
         margin-top: 1rem;
@@ -93,7 +94,7 @@ body
     #Unterstützung-style
     {
         background-color: var(--black);
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left:9.2rem;
         margin-right:9.21rem;
         margin-top: 1rem;
@@ -117,7 +118,7 @@ body
     #Unterstützung-style
     {
         background-color: var(--black);
-        background-image: linear-gradient(to right, var(--black) 30%, var(--red)150%);
+        background-image: linear-gradient(to right, var(--white) 30%, var(--skyblue)150%);
         margin-left:28.2rem;
         margin-right:28.2rem;
         margin-top: 1rem;
