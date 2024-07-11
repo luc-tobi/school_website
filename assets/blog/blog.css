@@ -9,8 +9,8 @@
 
 body
 {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0.25rem;
     font-family: sans-serif;
     background-color: var(--background);
     color: var(--black); 
@@ -22,33 +22,188 @@ table
     border-collapse: collapse;
 }
 
-td, th
+@media screen and (min-width: 350px) 
 {
-    border: 2px solid, var(--black);
-    text-align: center;
-    padding: 25px 50px;
+    .gallery
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 0px;
+        margin-top: 2rem;
+    }
+
+    .gallery-item
+    {
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 4px;
+    }
+
+    #Reiseblog
+    {
+        max-width: 100%; 
+    }
+
+    .Paragraf
+    {
+        margin-left: 1rem;
+    }
+
+    td, th
+    {
+        border: 2px solid, var(--black);
+        text-align: center;
+        padding: 12.5px 25px;
+    }
+
 }
 
-.gallery
+@media screen and (min-width: 400px) 
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px;
-    margin-top: 2rem;
+    .gallery
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 0px;
+        margin-top: 2rem;
+    }
+
+    .gallery-item
+    {
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+    }
+
+    #Reiseblog
+    {
+     max-width: 100%; 
+    }
+
+    .Paragraf
+    {
+        margin-left: 1rem;
+    }
+
+    td, th
+    {
+        border: 2px solid, var(--black);
+        text-align: center;
+        padding: 13px 26px;
+    }
 }
 
-.gallery-item
+@media screen and (min-width: 600px) 
 {
-    width: 350px;
-    height: 350px;
-    overflow: hidden;
-    border-radius: 4px;
+    .gallery
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 0px;
+        margin-top: 2rem;
+    }
+
+    .gallery-item
+    {
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 4px;
+    }
+
+    #Reiseblog
+    {
+    max-width: 95%; 
+    margin-left: 0px;
+    }
+
+    .Paragraf
+    {
+        margin-left: 1rem;
+    }
+
+    td, th
+    {
+        border: 2px solid, var(--black);
+        text-align: center;
+        padding: 25px 50px;
+    }
 }
 
-#Reiseblog
+@media screen and (min-width: 800px) 
 {
-   max-width: 90%; 
-   margin-left: 1rem;
+    .gallery
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 0px;
+        margin-top: 2rem;
+    }
+
+    .gallery-item
+    {
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 4px;
+    }
+
+    #Reiseblog
+    {
+    max-width: 99%; 
+    margin-left: 0px;
+    }
+
+    .Paragraf
+    {
+        margin-left: 1rem;
+    }
+
+    td, th
+    {
+        border: 2px solid, var(--black);
+        text-align: center;
+        padding: 25px 50px;
+    }
+}
+
+@media screen and (min-width: 1079px) 
+{
+    .gallery
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        margin-top: 2rem;
+    }
+
+    .gallery-item
+    {
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 4px;
+    }
+
+    #Reiseblog
+    {
+    max-width: 90%; 
+    margin-left: 1rem;
+    }
+
+    .Paragraf
+    {
+        margin-left: 1rem;
+    }
 }
