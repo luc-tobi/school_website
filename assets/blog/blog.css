@@ -22,7 +22,12 @@ table
     border-collapse: collapse;
 }
 
-@media screen and (min-width: 350px) 
+.Element
+{
+    color: var(--black);
+}
+
+@media screen and (min-width: 300px) 
 {
     .gallery
     {
@@ -50,6 +55,7 @@ table
     .Paragraf
     {
         margin-left: 1rem;
+        text-align: justify;
     }
 
     td, th
@@ -88,6 +94,7 @@ table
     .Paragraf
     {
         margin-left: 1rem;
+        text-align: justify;
     }
 
     td, th
@@ -127,6 +134,7 @@ table
     .Paragraf
     {
         margin-left: 1rem;
+        text-align: justify;
     }
 
     td, th
@@ -166,6 +174,7 @@ table
     .Paragraf
     {
         margin-left: 1rem;
+        text-align: justify;
     }
 
     td, th
@@ -205,5 +214,13 @@ table
     .Paragraf
     {
         margin-left: 1rem;
+        text-align: justify;
+    }
+
+    td, th
+    {
+        border: 2px solid, var(--black);
+        text-align: center;
+        padding: 25px 50px;
     }
 }
